@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Football Stats</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_account">Account</string>
+    <string name="title_upcoming">Upcoming Matches (2 days)</string>
+    <string name="title_filters">Filters</string>
+    <string name="label_league">League</string>
+    <string name="label_time_range">Time range</string>
+    <string name="range_day">Day</string>
+    <string name="range_week">Week</string>
+    <string name="range_month">Month</string>
+    <string name="action_show">Show</string>
+    <string name="action_archive">Archive</string>
+    <string name="empty_matches">No matches found</string>
+    <string name="details_title">Match Details</string>
+    <string name="details_country">Country</string>
+    <string name="details_status">Status</string>
+    <string name="details_match_id">Match ID</string>
+    <string name="details_api_endpoints">API Endpoints</string>
+    <string name="select_league">Select league</string>
+    <string name="error_loading">Failed to load data</string>
+    <string name="error_network">Network error</string>
+    <string name="error_select_league">Please select a league</string>
+    <string name="error_missing_match_id">Missing match id</string>
+</resources>
