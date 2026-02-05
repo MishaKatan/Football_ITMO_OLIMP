@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
 }
+configurations.configureEach {
+    exclude group: 'androidx.annotation', module: 'annotation-jvm'
+}
 
 android {
     namespace 'com.sstats.footballstats'
@@ -23,6 +26,7 @@ android {
 
     buildFeatures {
         viewBinding true
+        buildConfig true
     }
 
     compileOptions {
@@ -43,4 +47,7 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.11.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.11.0'
     implementation libs.annotation.jvm
+    testImplementation libs.junit.jupiter
 }
+
+
